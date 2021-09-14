@@ -1,17 +1,14 @@
 # hawqeyesframework
-Pytest based framework for web UI and API testing
+
+Hi 👋, Welcome to hawqeyesframework a Pytest based framework for web UI and API testing
 
 
-Hi 👋, Welcome to
-
-Hawqeyes Framework powered by pytest
-
-How to install?
+# How to install?
     Dependencies are mentioned in requirement.txt
     To install the libraries, use below command:
         pip -r requirements.txt
 
-How to run the pytest?
+# How to run the pytest?
     To run Test, use command below-
         python -m pytest --log-cli-level=INFO --alluredir="tmp/my_allure_results" -v
     To get Allure report, run-
@@ -20,7 +17,7 @@ How to run the pytest?
 
 
 
-Selenium Cheat sheet:
+# Selenium Cheat sheet:
     Selenium Documentation: https://www.selenium.dev/selenium/docs/api/py/api.html
     Courtesy:https://www.browserstack.com/guide/locators-in-selenium
     Web driver Initialization:
@@ -81,5 +78,5 @@ Selenium Cheat sheet:
         1. Find using an XPATH: $x("//div[@value='note the single quotes']")
         2. Find using a CSS Selector: $$("div[value='note the single quotes']")
 
-Contact-
+# Contact
     sanjeeth.nayak@agmail.com
